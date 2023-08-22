@@ -1,0 +1,242 @@
+*{padding: 0;
+margin: 0;}
+
+body{width: 100%;background-color: rgb(97, 93, 93);}
+
+
+.main{width: 100%;
+height: 100%;
+    display: flex;
+    }
+
+.main ul{width: 16em;
+    z-index: 1;
+    list-style: none;
+    position: relative;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    gap: 2%;
+    margin-top: 4em;
+    height: 60%;
+    text-transform: capitalize;
+    background-color: rgb(236, 236, 236);height: 100%;}
+
+    .main ul li{display: flex;width: 82%;
+    margin: 6% 10% ;
+    gap: 10%;
+    padding: 6px;
+    border-radius: 20px;
+    align-items: center;
+}
+.main ul li:hover{background-color: aliceblue;cursor: pointer;}
+    .main ul .video{
+        
+    }
+   
+        .first{display: flex;gap: 1em;
+            align-items: center;
+            width: 16em;
+            justify-content: start;
+            background-color: rgb(236, 236, 236)}
+        .first .fa-bars{font-size: 1.5rem;margin: 0 0.4em ;}
+
+        .main .nav-bar  .log {width: 2rem;height: 2rem;}
+   .main .nav-bar .log img{width: 100%;height: 100%;}
+
+
+  #compose{border: 1px solid
+    ;border-radius: 10em;
+    gap: 20%;
+display: flex;justify-content: center;
+align-items: center;padding: 10px;
+left: -20px;width: 60%;
+position:relative;}
+
+
+#active{position: relative;
+    left: -3%;
+    width: 82%;
+    padding: 10px;
+    color: red;
+    border-radius: 10em;
+    background-color: rgb(248, 224, 224);}
+
+
+.nav-bar{width:100%;display: flex;justify-content: space-between;
+position: fixed;background-color: rgb(236, 236, 236);
+height: 4em;z-index: 1;}
+
+.third{display: flex;align-items: center;justify-content: center;}
+.third i{font-size: 2em;cursor: pointer;}
+.grid{width: 2em;height: 2em;}
+.grid img{width: 100%;}
+
+.logo{width: 4em;height: 4em;border-radius: 50%;cursor: pointer;}
+.logo img{width: 100%;height: 100%;object-fit: fill;border-radius: 50%;}
+
+
+
+
+.second{width: 30%;
+    flex-grow: 1;
+    
+    display: flex;
+    align-items: center;
+    }
+    .second input{border-left: none;
+        border-radius: 0 10px 10px 0;
+        width: 100%;height: 90%;}
+        .srch{width: 10%;border: 2px solid black;
+        border-radius: 10px 0 0 10px;border-right: none;}
+        .srch i{font-size: 2em;padding: 13px;cursor: pointer;}
+.third{flex-grow: 1;
+
+justify-content: space-around;}
+
+
+
+
+.content{position: relative;
+    width: 90%;
+    background-color:gray;
+padding-left: 20%;
+padding-right: 2%;
+    height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+.one{padding-top: 4em;height: 6em;background-color: white;
+display: flex;justify-content: space-around;
+align-items: center;flex-wrap: wrap;}
+.one p{font-size: 2em;font-weight: 800;font-family: Georgia;}
+.one i{font-size: 2em;margin:  0 1em;}
+
+.sky{width: 100%;height: 70%;position: relative;}
+.sky img{width: 100%;height: 100%;}
+.sky h2{font-size: 2.4em;;
+    width: 100%;
+    transform: translatex(-50%);
+    left: 50%;
+    text-align: center;
+    color: white;
+    position: absolute;top: 10%;}
+
+.sky p{position: absolute;
+    transform: translate(-50%);
+    text-align: center;
+    color: white;font-size: 1.4em;left: 50%;top: 20%;}
+
+    .sky button{position: absolute;top: 40%;
+    left: 50%;outline: none;border: none;
+padding: 1.2%;border-radius: 20px;
+transform: translate(-50%);
+opacity: 0.8;cursor: pointer;}
+
+.sky button:hover{opacity: 1;}
+
+
+
+.two{width: 100%;
+    flex-wrap: wrap;
+    display: flex;justify-content: space-around;
+background-color: rgb(255, 255, 255);}
+
+.two div{height: 100%;display: flex;
+flex-direction: column;
+gap: 2em;
+justify-content: center;
+align-items: center;}
+
+.two div p{text-align: center;line-height: 1.6em;}
+.two div p span{font-size: 1.8em;font-weight: bold;}
+.two div i{font-size: 4em;}
+
+
+
+.three{width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(41, 41, 41);
+        display: flex;}
+
+.three .key{width: 30em;height: 20em;border-radius: 10px;}
+
+.three .key img{width: 100%;height: 100%;border-radius: 10px;}
+
+
+.three p{font-size: 2em;font-weight: bold;width: 50%;
+color: white;
+    text-align: center;}
+
+.three button{outline: none;border: none;border-radius: 20px;
+padding: 12px;
+opacity: 0.8;cursor: pointer;}
+.three button:hover{opacity: 1;}
+
+
+.four{width: 100%;
+
+    display: flex;justify-content: center
+    ;padding:4em 1em
+    ;background-color: white;}
+
+
+.four p{font-size: 2em;text-align: center;}
+
+.four p span{text-align: justify;}
+
+
+
+.four p button{outline: none;border: none;
+cursor: pointer;
+background-color: black;color: white
+;padding: 1.4em;border-radius: 30px;}
+.four p button:hover{background: white;color: black;}
+
+.fifth{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    width: 100%;height: 20em;background-color: black;}
+.fifth p{color: white;font-size: 1.6em;}
+.fifth div{
+display: flex;width: 100%;
+align-items: center;justify-content: center;
+gap: 4%;
+}
+
+.fifth div i{color: white;font-size: 3em;}
+
+
+
+@media (max-width:1200px)
+
+{
+    .main ul{display: none;}
+    .content{padding-left: 0;padding-right: 0;width: 100%;}
+}
+@media (max-width:1070px)
+
+{
+    .one{padding-top: 0;}
+    .nav-bar{display: none;}
+    .content{padding-left: 0;padding-right: 0;width: 100%;}
+}
+@media (max-width:500px)
+
+{
+
+    .main .nav-bar{display: none;}
+    .content{padding-left: 0;padding-right: 0;width: 100%;}
+    .one{padding-top: 0;}
+    .one i{font-size: 1.2em;}
+    .sky h2{font-size: 1.2em;}
+    .sky p{font-size: 1em;}
+    .three p{width: 100%;}
+}
